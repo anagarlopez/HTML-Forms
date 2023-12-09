@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GreeksforGreeks Survey Form</h1>
+    </header>
+    <main>
+        <form id="form">
+            <fieldset id="form-text">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" id="name">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" id="email">
+                <label>Age</label>
+                <input type="text" placeholder="Enter your age" id="age">
+            </fieldset>
+            <fieldset>
+                <p>Which option best describes you?</p>
+                <select name="occupation">
+                    <option value="student">Student</option>
+                    <option value="worker">Worker</option>
+                </select>
+            </fieldset>
+            <fieldset id="form-choose">
+                <p>Would you recommend GreeksforGreeks to a friend?</p>
+                <label>
+                    <input type="radio" name="recommended" value="yes">
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="recommended" value="no">
+                    No
+                </label>
+                <label>
+                    <input type="radio" name="recommended" value="maybe">
+                    Maybe
+                </label>
+            </fieldset>
+            <fieldset id="form-checkbox">
+                <p>Languages and Frameworks known</p>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    C
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    C++
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    C#
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    Java
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    Python
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    Python
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    JavaScript
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    React
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    Django
+                </label>
+                <label>
+                    <input type="checkbox" name="C" value="C">
+                    Spring
+                </label>
+            </fieldset>
+            <fieldset id="comments">
+                <label>Any comments or suggestions</label>
+                <textarea name="box notes"></textarea>
+            </fieldset>
+            <button>Submit</button>
+        </form>
+        <script src="./app.js"></script>
+    </main>
+</body>
+</html>
